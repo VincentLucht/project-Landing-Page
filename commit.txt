@@ -1,0 +1,1 @@
+Completed HTML structure, started styling with CSS - everything is in flexbox

@@ -1,0 +1,56 @@
+div {
+    border: 1px solid wheat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* first row */
+.container-1 {
+    display: flex;
+}
+h1 {
+    margin: 0px;
+}
+.row-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 10px;
+}
+
+/* second row */
+.heading-2 {
+    display: flex;
+    justify-content: center;
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-1, .card-2, .card-3, .card-4, .card-5 {
+    word-wrap: break-word;
+    display: flex;
+}
+
+/* images */
+.python-pic {
+    height: 90px;
+    margin: 5px;
+}
+.html-pic {
+    height: 70px;
+    margin: 15px;
+}
+.css-logo {
+    height: 72px;
+    margin: 14px;
+}
+.c-logo {
+    height: 76px;
+    margin: 15.5px;
+}
