@@ -7,6 +7,16 @@ div {
     flex-direction: column;
 }
 
+/* header */
+.header {
+    display: flex;
+}
+.list {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
 /* first row */
 .container-1 {
     display: flex;
