@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    div 
-    {
-      border: double 4px transparent;
-      border-radius: 30px;
-      background-image: linear-gradient(white, white), 
-                        linear-gradient(to right, green, gold) ;
-      background-origin: border-box;
-      background-clip: content-box, border-box;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Long Block with 2 Boxes</title>
+    <style>
+      body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.long-block {
+    width: 80%;
+    height: 100px; /* Adjust the height as needed */
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box {
+    width: 40%;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+    </style>
 </head>
 <body>
-  <div>hallo
-    <br>how are yoiu
-  </div>
+    <div class="container">
+        <div class="long-block">Long Block</div>
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+    </div>
 </body>
 </html>
