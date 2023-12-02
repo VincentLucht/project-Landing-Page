@@ -34,15 +34,10 @@ button {
     padding: 8px 16px 8px 16px;
     cursor: pointer;
 }
-.header button.active {
-    background-color: white;
-    color: #1f2937;
-}
 #homeButton {
-    background-color: white;
     color: #1f2937;
+    background-color: white;
 }
-
 
 /* first row */
 .container {
@@ -265,7 +260,7 @@ h1 {
 .python-div::before {
     content: '';
     position: absolute;
-    width: 100px;
+    width: 200px;
     height: 130%; 
     background: linear-gradient(#357fb9 20%, #ffc42d);
     animation: rotate 4s linear infinite;
@@ -290,9 +285,9 @@ h1 {
 .javascript-pic::before {
     content: '';
     position: absolute;
-    width: 100px;
+    width: 200px;
     height: 130%; 
-    background: linear-gradient(#357fb9 20%, #ffc42d);
+    background: linear-gradient(#f18010, #ffdd1e 80%);
     animation: rotate 4s linear infinite;
 }
 
@@ -300,9 +295,9 @@ h1 {
 .html-div::before {
     content: '';
     position: absolute;
-    width: 100px;
+    width: 200px;
     height: 130%; 
-    background: linear-gradient(#357fb9 20%, #ffc42d);
+    background: linear-gradient(#d41919, #f67f30 50%);
     animation: rotate 4s linear infinite;
 }
 
@@ -310,9 +305,9 @@ h1 {
 .css-div::before {
     content: '';
     position: absolute;
-    width: 100px;
+    width: 200px;
     height: 130%; 
-    background: linear-gradient(#357fb9 20%, #ffc42d);
+    background: linear-gradient(#143bd9, #5285fc 50%);
     animation: rotate 4s linear infinite;
 }
 
@@ -320,9 +315,9 @@ h1 {
 .c-div::before {
     content: '';
     position: absolute;
-    width: 100px;
+    width: 200px;
     height: 130%; 
-    background: linear-gradient(#357fb9 20%, #ffc42d);
+    background: linear-gradient(#659ad2 20%, #004482);
     animation: rotate 4s linear infinite;
 }
 
