@@ -38,6 +38,10 @@ button {
     padding: 8px 16px 8px 16px;
     cursor: pointer;
 }
+#aboutMeButton {
+    background-color: white;
+    color: #1f2937;
+}
 
 
 /* first row */
