@@ -253,33 +253,8 @@ h1 {
 }
 
 /* picture colors */
-/* make python picture move */
-.javascript-pic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative; 
-    overflow: hidden;
-    border-radius: 20px;
-}
-.javascript-pic::before {
-    content: '';
-    position: absolute;
-    width: 200px;
-    height: 130%; 
-    background: linear-gradient(#357fb9 20%, #ffc42d);
-    animation: rotate 4s linear infinite;
-}
-.javascript-pic::after {
-    content: '';
-    position: absolute;
-    inset: 5px;
-    border-radius: 16px;
-    background: white; 
-}
-
-/* make javascript pic move */
-.python-div {
+/* make python pic move */
+.python-div, .javascript-pic, .html-div, .css-div, .c-div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,12 +265,12 @@ h1 {
 .python-div::before {
     content: '';
     position: absolute;
-    width: 200px;
+    width: 100px;
     height: 130%; 
     background: linear-gradient(#357fb9 20%, #ffc42d);
     animation: rotate 4s linear infinite;
 }
-.python-div::after {
+.python-div::after, .javascript-pic::after, .html-div::after, .css-div::after, .c-div::after {
     content: '';
     position: absolute;
     inset: 5px;
@@ -309,6 +284,46 @@ h1 {
     to {
         transform: rotate(360deg)
     }
+}
+
+/* make js picture move */
+.javascript-pic::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 130%; 
+    background: linear-gradient(#357fb9 20%, #ffc42d);
+    animation: rotate 4s linear infinite;
+}
+
+/* make html picture move */
+.html-div::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 130%; 
+    background: linear-gradient(#357fb9 20%, #ffc42d);
+    animation: rotate 4s linear infinite;
+}
+
+/* make css picture move */
+.css-div::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 130%; 
+    background: linear-gradient(#357fb9 20%, #ffc42d);
+    animation: rotate 4s linear infinite;
+}
+
+/* make c picture move */
+.c-div::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 130%; 
+    background: linear-gradient(#357fb9 20%, #ffc42d);
+    animation: rotate 4s linear infinite;
 }
 
 /* font */
