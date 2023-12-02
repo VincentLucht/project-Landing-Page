@@ -228,65 +228,87 @@ h1 {
 /* images */
 .python-pic {
     height: 150px;
+    z-index: 2;
 }
 .javascript-image {
     height: 150px;
+    z-index: 2;
 }
 .html-pic {
     height: 104px;
     margin: 23px;
+    z-index: 2;
 }
 .css-logo {
     height: 104px;
     margin: 23px;
+    z-index: 2;
 }
 .c-logo {
     height: 104px;
     margin: 23px;
     margin-right: 28px;
     margin-left: 28px;
+    z-index: 2;
 }
 
 /* picture colors */
-.python-pic {
-    border: double 4px transparent;
-    border-radius: 10px;
-    background-image: linear-gradient(white, white), 
-                      linear-gradient(to bottom right, #4B7CB4 20%, #F7C554);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+/* make python picture move */
+.javascript-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    overflow: hidden;
+    border-radius: 20px;
 }
-.javascript-pic{
-    border: double 4px transparent;
-    border-radius: 10px;
-    background-image: linear-gradient(white, white), 
-                      linear-gradient(to bottom right, #f09f13, #ffd500);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+.javascript-pic::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 130%; 
+    background: linear-gradient(#357fb9 20%, #ffc42d);
+    animation: rotate 4s linear infinite;
 }
-.html-div {
-    border: double 4px transparent;
-    border-radius: 10px;
-    background-image: linear-gradient(white, white), 
-                      linear-gradient(to bottom right, #D15936 20%, orange);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+.javascript-pic::after {
+    content: '';
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: white; 
 }
-.css-div {
-    border: double 4px transparent;
-    border-radius: 10px;
-    background-image: linear-gradient(white, white), 
-                      linear-gradient(to bottom right, #304CDB 11%, #3996e7 );
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+
+/* make javascript pic move */
+.python-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    overflow: hidden;
+    border-radius: 20px;
 }
-.c-div {
-    border: double 4px transparent;
-    border-radius: 10px;
-    background-image: linear-gradient(white, white), 
-                      linear-gradient(to bottom right, #7199CD, #255897, #1B437E);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+.python-div::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 130%; 
+    background: linear-gradient(#357fb9 20%, #ffc42d);
+    animation: rotate 4s linear infinite;
+}
+.python-div::after {
+    content: '';
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: white; 
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg)
+    }
 }
 
 /* font */
