@@ -35,8 +35,8 @@ button {
     cursor: pointer;
 }
 #homeButton {
-    color: #1f2937;
     background-color: white;
+    color: #1f2937;
 }
 
 /* first row */
