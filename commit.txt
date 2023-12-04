@@ -1,1 +1,4 @@
-Reworked the Programming Languages Proficiency and completed its text
+Completed HTML Card 2 and Card 3
+
+- completed text
+- added placeholder images and buttons
