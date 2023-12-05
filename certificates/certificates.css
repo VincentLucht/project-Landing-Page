@@ -51,6 +51,10 @@ button {
     padding: 40px;
 }
 
+#certificate-1 {
+    width: 50%;
+}
+
 
 /* footer */
 .footer {
