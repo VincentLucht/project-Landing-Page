@@ -129,6 +129,16 @@ h1 {
     display: flex;
 }
 
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    padding: 20px;
+    color: white;
+    background-color: #1f2937;
+}
+
 /* images */
 #cs50-logo {
     max-width: 150px;

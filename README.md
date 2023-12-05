@@ -1,2 +1,6 @@
 # project-Landing-Page
-First somewhat large project that I will be doing on my own
+
+- [ ] complete button functionality
+- [ ] improve css of the About Me page
+- [ ] add all certificates into the Certificates page
+- [ ] add big projects into the Projects page
