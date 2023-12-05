@@ -96,21 +96,20 @@ h1 {
 
 /* second row */
 .education-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: white;
     color: black;
 }
-
 #heading {
     text-align: center;
 }
 
 /* card 2 */
 .row-2 {
-    display: flex;
-    flex-direction: column;
     max-width: 1000px;
-    justify-content: center;
-    align-items: center;
 }
 .card-2 {
     display: flex;
@@ -130,6 +129,15 @@ h1 {
     display: flex;
 }
 
-div {
-    border: 1px solid wheat;
+/* images */
+#cs50-logo {
+    max-width: 150px;
+}
+
+#python-logo {
+    max-width: 200px;
+}
+
+#top-logo {
+    max-width: 200px
 }
