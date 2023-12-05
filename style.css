@@ -2,6 +2,10 @@ body {
     margin: 0;
     background-color: #1f2937;
 }
+/* font */
+* {
+    font-family: 'Roboto', sans-serif;
+}
 
 /* header */
 .header {
@@ -63,7 +67,7 @@ h1 {
     color: white;
 }
 
-.container-1-button {
+#container-1-button {
     color: #1f2937;
     background-color: white;
     font-size: large;
@@ -176,7 +180,7 @@ h1 {
     font-weight: 300;
 }
 
-.view-button-div {
+#view-button-div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -319,9 +323,4 @@ h1 {
     height: 130%; 
     background: linear-gradient(#659ad2 20%, #004482);
     animation: rotate 4s linear infinite;
-}
-
-/* font */
-* {
-    font-family: 'Roboto', sans-serif;
 }
